@@ -41,8 +41,6 @@ transformer.fit(trainVectorizer)
 print()
 transformer.fit(testVectorizer)
 tfidf = transformer.transform(testVectorizer)
-#print(tfidf.todense())
-
 
 if __name__ == '__main__':
     
